@@ -70,7 +70,6 @@
             from { opacity: 0; }
             to { opacity: 1; }
         }
-
         .modal-content {
             background: var(--card-background);
             border-radius: 15px;
@@ -386,7 +385,7 @@
     <div class="modal-overlay">
         <div class="modal-content">
             <div class="modal-header">
-                <h1 class="modal-title">Sahayak</h1>
+                <h1 class="modal-title">Intership 3</h1>
                 <div class="header-controls">
                     <div class="theme-switch-wrapper">
                         <label class="theme-switch" for="checkbox">
@@ -403,69 +402,38 @@
             <div class="modal-body">
                 <div class="project-description">
                     <p style="font-size: 1.2rem; font-weight: 600; margin-bottom: 20px;">
-                        <strong>AI Teaching Assistant for Indian Classrooms</strong> 
+                        <strong>Generative AI Intern </strong> 
                     </p>
-                    
                     <hr style="margin: 20px 0; border: 1px solid var(--border-color);">
-                    
                     <h2></h2>
                     <p>
-    Developed <strong>Sahayak</strong>, an AI-powered teaching assistant platform built with <strong>Next.js 14</strong>, designed to provide personalized, syllabus-aligned learning experiences for Indian classrooms. Engineered a multi-agent AI architecture integrating <strong>Google Gemini</strong>, <strong>PostgreSQL</strong>, <strong>Prisma</strong>, and <strong>AWS S3</strong> to enable intelligent content generation, student performance analysis, and curriculum-focused tutoring. Implemented secure knowledge-base ingestion pipelines for textbooks, PDFs, and syllabus documents, ensuring AI responses remained restricted to teacher-approved educational content and minimizing hallucinations.
+    During my internship, I received structured training in Artificial Intelligence (AI), Generative AI, prompt engineering, and modern programming practices. I gained hands-on experience analyzing AI-powered data extraction pipelines, understanding backend integration workflows, and comparing the capabilities of leading large language models such as ChatGPT and Gemini for various AI-driven tasks.
 </p>
-                    
-                    
 
+<p>
+    As part of a healthcare AI project, I contributed to the development of a system designed to automate the ingestion and processing of medical reports from PDFs and images. The project leveraged OCR and document parsing techniques to extract structured clinical biomarkers from unstructured medical documents and identify abnormal values based on predefined medical reference ranges.
+</p>
+
+<p>
+    I also explored Retrieval-Augmented Generation (RAG) and Agentic AI concepts to enable intelligent medical information retrieval and querying. The solution generated patient-friendly summaries and exportable reports while emphasizing secure and privacy-preserving handling of sensitive healthcare data. This experience strengthened my understanding of applied AI systems, document intelligence, and real-world Generative AI applications.
+</p>
                     <hr style="margin: 20px 0; border: 1px solid var(--border-color);">
-                    
-                    
-
                     <hr style="margin: 20px 0; border: 1px solid var(--border-color);">
-                    
-                   
                 </div>
-               <h3>Key Features</h3>
-<ul style="text-align: left; margin: 20px auto; max-width: 800px;">
-    <li> Built a multi-agent AI framework comprising Teacher, Tutor, Analytics, and Memory Agents coordinated through an orchestrator architecture.</li>
-    <li> Developed syllabus-aligned AI content generation for MCQs, descriptive exams, worksheets, topic notes, and lesson plans.</li>
-    <li> Implemented a personalized AI Chat Tutor with multilingual support and memory isolation for individual students.</li>
-    <li> Designed dynamic study plans that adapt based on student performance, quiz results, and recent classroom activities.</li>
-    <li> Enabled real-time student engagement monitoring, doubt analysis, and class-wide weakness identification through analytics dashboards.</li>
-    <li> Integrated secure document storage and processing using AWS S3, PostgreSQL, and vector-based knowledge retrieval workflows.</li>
-</ul>
-
-                <h3>Goal:</h3>
-<ul style="text-align: left; margin: 20px auto; max-width: 800px;">
-    <li>
-        The primary goal of Sahayak is to transform classroom learning through a syllabus-bound AI ecosystem that provides personalized education while maintaining curriculum compliance. By combining multi-agent AI, intelligent analytics, and teacher-controlled knowledge bases, the platform enhances student learning outcomes, reduces teacher workload, and delivers accurate, context-aware educational assistance at scale.
-    </li>
-</ul>  
-                    <p></p>
-                <div class="output-section">
-                    <h3>Project Demo</h3>
-                    <div class="output-grid">
-                        
-                        <div class="output-item">
-                            <h4>Sahayak</h4>
-                            <a href="https://github.com/prajwalpg/AI-tech">
-                            <img src="../static/images/Project/sub/S1.jpeg" alt="Main Project" class="output-image">
-                            <img src="../static/images/Project/sub/S2.jpeg" alt="Main Project" class="output-image">
-                            <img src="../static/images/Project/sub/S3.jpeg" alt="Main Project" class="output-image">
-                            <img src="../static/images/Project/sub/S4.jpeg" alt="Main Project" class="output-image">
-                            </a>
-                            <p class="output-description">
-    Delivered a syllabus-aligned multi-agent AI teaching assistant that generates personalized learning content, adaptive study plans, and curriculum-based tutoring while providing teachers with real-time classroom analytics and student performance insights.
-                            </p>
-                        </div>
-
-                        
-                    </div>
-                </div>
-
+               <section id="nlp-projects">
+    
+</section>
                 <div class="action-buttons">
-                    <a href="https://github.com/Hishamulhakeem/" target="_blank" class="btn btn-primary">
+                    <a href="https://github.com/Hishamulhakeem/MedRag" target="_blank" class="btn btn-primary">
                         <i class='bx bxl-github'></i>
                         View Project
-                    </a>                    
+                    </a>
+                    <a href="../assets/pdf/Certificate/Intern4.pdf" target="_blank" class="btn btn-primary">
+                        <i class='bxs-certification'></i>
+                        Certificate
+                    </a>
+
+                    
                 </div>
             </div>
         </div>
@@ -496,6 +464,7 @@
                 localStorage.setItem('theme', 'light-mode');
             }
         });
+
         function closeModal() {
             document.querySelector('.modal-content').style.animation = 'slideOut 0.3s ease';
             document.querySelector('.modal-overlay').style.animation = 'fadeOut 0.3s ease';
@@ -514,6 +483,7 @@
                 closeModal();
             }
         });
+
         const style = document.createElement('style');
         style.textContent = `
             @keyframes slideOut {
@@ -529,4 +499,5 @@
         document.head.appendChild(style);
     </script>
 </body>
+
 </html>
