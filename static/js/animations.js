@@ -32,7 +32,7 @@ cards.forEach(card => {
 
 // Typing animation for home section
 const typingElement = document.querySelector('.info-home h3');
-const words = ["AIML Engineer", "Deep Learning Enthusiast", "Prompt Engineer", "Data Scientist", "Researcher", "Final-Year Engineering Student"];
+const words = ["AIML Engineer", "Deep Learning Enthusiast", "Prompt Engineer", "Data Scientist", "Researcher", "Computer Vision Engineer"];
 let wordIndex = 0;
 let charIndex = 0;
 let isDeleting = false;
